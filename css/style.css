@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.tabMenu ul {
+  list-style: none;
+}
+
+.tabMenu ul li button {
+  background: white;
+  border-radius: 10px;
+  border: 1px solid darkblue;
+  padding: 0.5rem 1.5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.tabMenu ul li button:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.tabMenu .content div {
+  border: 5px solid crimson;
+  text-align: center;
+}
+
+.slider {
+  text-align: center;
+}
+
+.slider img {
+  width: 88%;
+  height: 400px;
+}
+
+.slider .container {
+  position: relative;
+}
+
+.slider .left {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding: 10.8rem 1.7rem;
+}
+
+.slider .left:hover {
+  background-color: gray;
+  color: white;
+}
+
+.slider .left i {
+  font-size: 30px;
+}
+
+.slider .next {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding: 10.8rem 1.7rem;
+}
+
+.slider .next:hover {
+  background-color: gray;
+  color: white;
+}
+
+.slider .next i {
+  font-size: 30px;
+}
+
+.active {
+  background-color: darkblue !important;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
